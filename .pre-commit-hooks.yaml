@@ -4,11 +4,11 @@
     entry: ./branch-name.sh
     always_run: true
     pass_filenames: false
-    stages: [push]
+    stages: [commit]
 -   id: check-commit-message
     name: Check commit message
     language: script
     entry: ./commit-message.sh
     always_run: true
     pass_filenames: false
-    stages: [push]
+    stages: [commit]
